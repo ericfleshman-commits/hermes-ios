@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "Hermes",
+    "slug": "hermes-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.ericfleshman.hermesmobile",
+      "buildNumber": "146"
+    },
+    "platforms": [
+      "ios"
+    ],
+    "jsEngine": "hermes",
+    "plugins": [
+      "expo-secure-store",
+      "expo-status-bar",
+      [
+        "expo-notifications",
+        {
+          "mode": "production"
+        }
+      ]
+    ],
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#051515"
+      }
+    },
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#051515"
+    },
+    "runtimeVersion": "1.0.0",
+    "updates": {
+      "url": "https://u.expo.dev/7695b221-a3a7-428c-9f18-005fe1e45a0d",
+      "requestHeaders": {
+        "expo-channel-name": "production"
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "7695b221-a3a7-428c-9f18-005fe1e45a0d"
+      }
+    },
+    "owner": "efleshman13"
+  }
+}
